@@ -1,0 +1,469 @@
+{
+  "work": "The Last Boring Slide",
+  "source": "https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah",
+  "basis": "数值来自发布版场景配置；cue_zh 是依据讲者备注和场景设计撰写的中文动作摘要，只描述作品叙事。",
+  "indexing": "beat 从 1 开始；运行时的 beat 索引从 0 开始。",
+  "entry_note": "entry 为配置值，直接打开首页不会播放一次跨场转场。",
+  "transition_duration_s": {
+    "fade": 0.7,
+    "portal-in": 3.2,
+    "portal-out": 2.8,
+    "fold": 3.4,
+    "wash": 2.6,
+    "flaps": 2.6,
+    "slam": 1.9,
+    "daybreak": 3.4,
+    "line": 2.4,
+    "tear": 2.8
+  },
+  "scenes": [
+    {
+      "id": "office",
+      "title": "The Future of AI",
+      "image": "evidence/scenes/office.jpg",
+      "entry": "fade",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "用常规白底标题页开场，让观众习惯平淡的版式。",
+          "delay_s": 0.0,
+          "animation_s": 0.5,
+          "auto_hold_s": 4.0,
+          "page": "1"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "按普通议程读出条目，让图表出现在观众视野里。",
+          "delay_s": 0.0,
+          "animation_s": 4.2,
+          "auto_hold_s": 3.5,
+          "page": "2"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "讲者停下来，让演示自行改写版式，等图表重新成为焦点。",
+          "delay_s": 0.0,
+          "animation_s": 25.8,
+          "auto_hold_s": 1.5,
+          "page": "3"
+        }
+      ]
+    },
+    {
+      "id": "tower",
+      "title": "The real chart",
+      "image": "evidence/scenes/tower.jpg",
+      "entry": "portal-in",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "在同一线性刻度上看早期数据挤在底部。",
+          "delay_s": 1.8,
+          "animation_s": 4.0,
+          "auto_hold_s": 4.0,
+          "page": "21"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "视点沿图表升高，增长线冲出普通页边。",
+          "delay_s": 0.0,
+          "animation_s": 5.0,
+          "auto_hold_s": 4.0,
+          "page": "34"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "让观众感受高处的尺度，同时交代估计范围。",
+          "delay_s": 0.0,
+          "animation_s": 7.0,
+          "auto_hold_s": 4.0,
+          "page": "55"
+        },
+        {
+          "beat": 4,
+          "cue_zh": "往下看；讲清虚线段是趋势外推。",
+          "delay_s": 0.0,
+          "animation_s": 9.0,
+          "auto_hold_s": 6.0,
+          "page": "89"
+        }
+      ]
+    },
+    {
+      "id": "boat",
+      "title": "Anchor",
+      "image": "evidence/scenes/boat.jpg",
+      "entry": "fold",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "让纸船浮在平静水面，建立参照。",
+          "delay_s": 2.2,
+          "animation_s": 4.0,
+          "auto_hold_s": 2.5,
+          "page": "233"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "海面升高而链长保持，船被拉低。",
+          "delay_s": 0.0,
+          "animation_s": 6.0,
+          "auto_hold_s": 3.5,
+          "page": "610"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "释放锚链，让“放下原先参照”有一个可见动作。",
+          "delay_s": 0.0,
+          "animation_s": 6.0,
+          "auto_hold_s": 5.0,
+          "page": "1,597"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "title": "The loop",
+      "image": "evidence/scenes/loop.jpg",
+      "entry": "wash",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "先介绍代码生产的占比。",
+          "delay_s": 1.8,
+          "animation_s": 4.0,
+          "auto_hold_s": 4.0,
+          "page": "2,584"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "用扇叶把比例变化画出来。",
+          "delay_s": 0.0,
+          "animation_s": 4.0,
+          "auto_hold_s": 5.0,
+          "page": "4,181"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "用两只转速不同的轮子比较速度。",
+          "delay_s": 0.0,
+          "animation_s": 4.0,
+          "auto_hold_s": 5.0,
+          "page": "10,946"
+        },
+        {
+          "beat": 4,
+          "cue_zh": "把上一轮输出嵌进下一轮，让观众看到反馈。",
+          "delay_s": 0.0,
+          "animation_s": 10.0,
+          "auto_hold_s": 7.0,
+          "page": "75,025"
+        }
+      ]
+    },
+    {
+      "id": "swarm",
+      "title": "A country of them",
+      "image": "evidence/scenes/swarm.jpg",
+      "entry": "portal-in",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "从单个工作者开始。",
+          "delay_s": 1.6,
+          "animation_s": 4.0,
+          "auto_hold_s": 3.0,
+          "page": "121,393"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "拉开规模，看大量个体同时工作。",
+          "delay_s": 0.0,
+          "animation_s": 6.0,
+          "auto_hold_s": 4.0,
+          "page": "832,040"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "切入作品讲述的协作成果，留时间解释。",
+          "delay_s": 0.0,
+          "animation_s": 7.0,
+          "auto_hold_s": 4.0,
+          "page": "2,178,309"
+        },
+        {
+          "beat": 4,
+          "cue_zh": "让计数器继续走，讲清这里使用的是假设。",
+          "delay_s": 0.0,
+          "animation_s": 8.0,
+          "auto_hold_s": 8.0,
+          "page": "39,088,169"
+        }
+      ]
+    },
+    {
+      "id": "dominoes",
+      "title": "Thirty steps",
+      "image": "evidence/scenes/dominoes.jpg",
+      "entry": "flaps",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "交代相邻骨牌固定的尺寸比。",
+          "delay_s": 1.4,
+          "animation_s": 4.0,
+          "auto_hold_s": 3.0,
+          "page": "433,494,437"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "让连续倒下的骨牌穿越多个尺度。",
+          "delay_s": 0.0,
+          "animation_s": 14.0,
+          "auto_hold_s": 4.0,
+          "page": "1,134,903,170"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "停在末端，回扣每步使用同一个比例。",
+          "delay_s": 0.0,
+          "animation_s": 5.0,
+          "auto_hold_s": 1.2,
+          "page": "7,778,742,049"
+        }
+      ]
+    },
+    {
+      "id": "calendar",
+      "title": "2027",
+      "image": "evidence/scenes/calendar.jpg",
+      "entry": "slam",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "从等面积日期格出发。",
+          "delay_s": 0.9,
+          "animation_s": 3.5,
+          "auto_hold_s": 2.5,
+          "page": "20,365,011,074"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "让格子大小随模型中的进展量变化。",
+          "delay_s": 0.0,
+          "animation_s": 6.0,
+          "auto_hold_s": 3.0,
+          "page": "365,435,296,162"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "标出模型情景里的两个日期，讲清它们的性质。",
+          "delay_s": 0.0,
+          "animation_s": 6.0,
+          "auto_hold_s": 4.0,
+          "page": "10,610,209,857,723"
+        },
+        {
+          "beat": 4,
+          "cue_zh": "打开已被拉大的单日，引向下一场。",
+          "delay_s": 0.0,
+          "animation_s": 6.0,
+          "auto_hold_s": 4.0,
+          "page": "1.3 × 10^15"
+        }
+      ]
+    },
+    {
+      "id": "lamp",
+      "title": "How far you can see",
+      "image": "evidence/scenes/lamp.jpg",
+      "entry": "portal-out",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "在黑暗中点亮一个人的灯。",
+          "delay_s": 1.6,
+          "animation_s": 4.5,
+          "auto_hold_s": 3.0,
+          "page": "1.6 × 10^19"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "扩大到更亮的灯和许多盏灯，保留未照亮的场域。",
+          "delay_s": 0.0,
+          "animation_s": 7.0,
+          "auto_hold_s": 4.0,
+          "page": "4.1 × 10^26"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "用日出揭示此前看不见的空间。",
+          "delay_s": 0.0,
+          "animation_s": 11.0,
+          "auto_hold_s": 8.0,
+          "page": "8.9 × 10^40"
+        }
+      ]
+    },
+    {
+      "id": "selectall",
+      "title": "Select all",
+      "image": "evidence/scenes/selectall.jpg",
+      "entry": "daybreak",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "把屏幕内的编辑动作引向实体机器。",
+          "delay_s": 3.1,
+          "animation_s": 6.0,
+          "auto_hold_s": 3.0,
+          "page": "3.5 × 10^52"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "用缩短的倍增周期演示作品的假设。",
+          "delay_s": 0.0,
+          "animation_s": 7.0,
+          "auto_hold_s": 2.5,
+          "page": "10^80"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "将选择框的目标扩大到地球。",
+          "delay_s": 0.0,
+          "animation_s": 12.0,
+          "auto_hold_s": 6.0,
+          "page": "∞"
+        }
+      ]
+    },
+    {
+      "id": "aim",
+      "title": "Aim",
+      "image": "evidence/scenes/aim.jpg",
+      "entry": "line",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "用指向目标的射线引出方向问题。",
+          "delay_s": 1.2,
+          "animation_s": 5.0,
+          "auto_hold_s": 3.0,
+          "page": "∞"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "近距离观察一度偏差。",
+          "delay_s": 0.0,
+          "animation_s": 5.0,
+          "auto_hold_s": 3.5,
+          "page": "∞"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "固定角度、拉长距离，用几何关系放大误差。",
+          "delay_s": 0.0,
+          "animation_s": 14.0,
+          "auto_hold_s": 3.5,
+          "page": "∞"
+        },
+        {
+          "beat": 4,
+          "cue_zh": "停在远端后果，让观众理解纠正机会的重要性。",
+          "delay_s": 0.0,
+          "animation_s": 5.0,
+          "auto_hold_s": 5.0,
+          "page": "∞"
+        }
+      ]
+    },
+    {
+      "id": "futures",
+      "title": "Two aims",
+      "image": "evidence/scenes/futures.jpg",
+      "entry": "tear",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "在同一海湾拖动分隔线，对照两种结果。",
+          "delay_s": 1.2,
+          "animation_s": 5.0,
+          "auto_hold_s": 6.0,
+          "page": "∞"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "显示作品引用的暂停呼吁。",
+          "delay_s": 0.0,
+          "animation_s": 4.0,
+          "auto_hold_s": 5.0,
+          "page": "∞"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "停下来，允许讲者拖回另一侧回应提问。",
+          "delay_s": 0.0,
+          "animation_s": 5.0,
+          "auto_hold_s": 8.0,
+          "page": "∞"
+        }
+      ]
+    },
+    {
+      "id": "pile",
+      "title": "You are here",
+      "image": "evidence/scenes/pile.jpg",
+      "entry": "portal-in",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "沿此前建立的尺度返回现在，等镜头停稳。",
+          "delay_s": 0.0,
+          "animation_s": 12.0,
+          "auto_hold_s": 3.0,
+          "page": "∞"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "从底部抬头看由先前画面组成的高墙。",
+          "delay_s": 0.0,
+          "animation_s": 7.0,
+          "auto_hold_s": 5.0,
+          "page": "1"
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Any questions?",
+      "image": "evidence/scenes/questions.jpg",
+      "entry": "portal-out",
+      "beats": [
+        {
+          "beat": 1,
+          "cue_zh": "回到白底提问页，制造结束感。",
+          "delay_s": 0.0,
+          "animation_s": 0.6,
+          "auto_hold_s": 4.0,
+          "page": "1"
+        },
+        {
+          "beat": 2,
+          "cue_zh": "讲者再按一次，把注意力交给屏幕。",
+          "delay_s": 0.0,
+          "animation_s": 4.0,
+          "auto_hold_s": 2.5,
+          "page": "1"
+        },
+        {
+          "beat": 3,
+          "cue_zh": "保留最后的问题，并以一度倾斜回扣靶心。",
+          "delay_s": 0.0,
+          "animation_s": 12.0,
+          "auto_hold_s": 8.0,
+          "page": "1"
+        }
+      ]
+    }
+  ]
+}

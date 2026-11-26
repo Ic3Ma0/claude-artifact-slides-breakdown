@@ -2,6 +2,12 @@
 
 一个白底标题页，怎样变成一场可以走进图表、拖动两种未来、最后又回到白底标题页的演讲？这里收录了 @fluxxrider 的 Claude Artifact《The Last Boring Slide》的中文制作拆解，包含场景取样、检测结果和逐拍记录。[观看原作](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah)
 
+## 给 Agent 的阅读入口
+
+1. **先读场景地图**。一个 JSON 串起全部 13 个场景、43 个节拍的中文动作摘要、延迟、时长、页码和截图路径。[场景地图](evidence/deck-map.json)
+2. **再看实现**。查按键与回退逻辑、10 种转场的合成方式、手势优先级、声音触发和渲染预算。[技术拆解](technical-notes.md)
+3. **用动态样片核对**。逐帧查看议程如何展开、图表如何折成纸船，再与 rea-video 的切段和分类对照。[议程展开](evidence/office-agenda.mp4) · [高塔折成纸船](evidence/tower-to-boat.mp4) · [检测结果](evidence/motion-analysis.json)
+
 ## 从图表走进高塔
 
 ![第二场：柱形图延伸成一座塔，红线沿塔身上升](evidence/scenes/tower.jpg)

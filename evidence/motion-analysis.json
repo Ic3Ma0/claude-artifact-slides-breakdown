@@ -1,0 +1,104 @@
+[
+  {
+    "input": "evidence/office-agenda.mp4",
+    "sha256": "71b0740fd87f6314bf4f59b661176c308e6c5f482fc1494082e825de675b96b8",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 800,
+          "height": 450,
+          "r_frame_rate": "12/1",
+          "nb_frames": "51"
+        }
+      ],
+      "format": {
+        "duration": "4.250000"
+      }
+    },
+    "sampling": "seek(\"office\", 1, frame / 12)",
+    "vlm": false,
+    "shots": [
+      {
+        "start_s": 0.0,
+        "end_s": 4.25,
+        "detector": {
+          "live_action": 0.0034,
+          "ai_video": 0.0046,
+          "avatar": 0.0034,
+          "cg_3d": 0.0041,
+          "code_render": 0.8972,
+          "screen_capture": 0.0739,
+          "still_motion": 0.0034,
+          "static_hold": 0.0034,
+          "anim_2d": 0.0034,
+          "stop_motion": 0.0034,
+          "film_footage": 0.0
+        },
+        "temporal_family": "dynamic"
+      }
+    ]
+  },
+  {
+    "input": "evidence/tower-to-boat.mp4",
+    "sha256": "f0ff50274551a64d3d49681b70c4248ae8e8f3e3e045969c2a634b69cdfae231",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 800,
+          "height": 450,
+          "r_frame_rate": "12/1",
+          "nb_frames": "42"
+        }
+      ],
+      "format": {
+        "duration": "3.500000"
+      }
+    },
+    "sampling": "trans(\"boat\", min(1, frame / (12 * 3.4)))",
+    "vlm": false,
+    "shots": [
+      {
+        "start_s": 0.0,
+        "end_s": 0.583,
+        "detector": {
+          "live_action": 0.4435,
+          "ai_video": 0.4227,
+          "avatar": 0.0136,
+          "cg_3d": 0.0434,
+          "code_render": 0.0187,
+          "screen_capture": 0.0117,
+          "still_motion": 0.0116,
+          "static_hold": 0.0116,
+          "anim_2d": 0.0116,
+          "stop_motion": 0.0116,
+          "film_footage": 0.0
+        },
+        "temporal_family": "dynamic"
+      },
+      {
+        "start_s": 0.583,
+        "end_s": 3.5,
+        "detector": {
+          "live_action": 0.4046,
+          "ai_video": 0.3525,
+          "avatar": 0.0127,
+          "cg_3d": 0.1399,
+          "code_render": 0.0346,
+          "screen_capture": 0.0113,
+          "still_motion": 0.0111,
+          "static_hold": 0.0111,
+          "anim_2d": 0.0111,
+          "stop_motion": 0.0111,
+          "film_footage": 0.0
+        },
+        "temporal_family": "dynamic"
+      }
+    ]
+  }
+]
