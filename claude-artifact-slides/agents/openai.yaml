@@ -1,4 +1,0 @@
-interface:
-  display_name: "Claude Artifact Slides · 交互演示"
-  short_description: "把一个主题编排成可现场推进、带讲者备注的交互式网页演示。"
-  default_prompt: "使用 $claude-artifact-slides，把我的主题做成一份可以现场演讲的交互作品。"
