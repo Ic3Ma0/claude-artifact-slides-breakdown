@@ -1,14 +1,18 @@
-# Claude Artifact 动画拆解 · The Last Boring Slide
+# 用 rea-video 拆解 Claude Artifact 动画演示
 
-一张图表如何折成海上的纸船？这个仓库逐拍拆解 @fluxxrider 的交互演讲：讲者按下一个键，哪层画面先动，相机往哪里走，声音又在哪一刻响起。[原作出处](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah)
+拆解对象是 @fluxxrider 的交互演讲 **《The Last Boring Slide》**。我们用 rea-video 分析渲染样片里的画面变化，再对照作品公开代码，整理出每次按键触发的动作、转场和声音。[原作](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah) · [rea-video](https://github.com/JuneYaooo/rea-video)
+
+**把仓库链接交给你的 Agent**，它可以按帧讲解一个效果、照着时序做出可运行的交互原型，也可以把同一种演讲手法用到你的主题上。例如，把这句和仓库链接一起发给它：
+
+> 读场景地图里的 `futures` 和对应笔记。用它的双视图拖动手法，把“同一条街道改造前后”做成一个能在浏览器打开的 HTML。拖动分界线时，两侧建筑要保持对齐。
+
+[逐场制作手册](scenes/README.md)　·　[给 Agent 的场景地图](evidence/deck-map.json)　·　[高清图解](gallery.md)
 
 ![同一次折纸转场的三个时刻：高塔上的图表、露出海面的折叠纸面、落在水上的纸船](docs/fold-sequence.jpg)
 
 *同一次转场的三个时刻 · 0.00 秒 / 1.58 秒 / 3.33 秒*
 
 **13 个场景 · 43 个演讲节拍 · 129 幅起中末取样 · 10 种转场**
-
-[逐场制作手册](scenes/README.md)　·　[高清图解](gallery.md)　·　[Agent 场景地图 JSON](evidence/deck-map.json)
 
 ## 看懂这张纸，能拆到多细？
 
