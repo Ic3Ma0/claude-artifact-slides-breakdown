@@ -4,11 +4,13 @@
 
 ## 体验成品
 
-[![动画预览：高塔上的图表折成纸船，落在海面上](evidence/presentation-preview.gif)](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah)
+从开场的白底幻灯片，到高塔折成纸船、骨牌依次倒下，再到结尾的提问。下面这段约 71 秒的无声预览按演讲顺序串起全部 13 个场景。
 
-**[打开完整交互演示 ↗](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah)**　·　[下载离线 HTML](https://raw.githubusercontent.com/Ic3Ma0/claude-artifact-slides-breakdown/main/demo/the-last-boring-slide.zip)
+[![13 场动画精选，从开场标题页到最后一个问题](evidence/presentation-highlights.webp)](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah)
 
-点击画面或按 **→** 推进，按 **A** 自动播放，按 **O** 挑选场景。离线体验请解压 ZIP，用浏览器打开里面的 `index.html`。
+[播放或下载预览 MP4](evidence/presentation-highlights.mp4)　·　**[打开完整交互演示 ↗](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah)**　·　[下载离线 HTML](https://raw.githubusercontent.com/Ic3Ma0/claude-artifact-slides-breakdown/main/demo/the-last-boring-slide.zip)
+
+点击上方动图可打开原作。在演示中点击画面或按 **→** 推进，按 **A** 自动播放，按 **O** 挑选场景。离线体验请解压 ZIP，用浏览器打开里面的 `index.html`。
 
 ## 给 Agent 的阅读入口
 
