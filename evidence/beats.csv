@@ -1,0 +1,44 @@
+scene,title,enter_with,beat,delay_s,animation_s,auto_hold_s,displayed_page
+office,The Future of AI,fade,1,0,0.5,4.0,1
+office,The Future of AI,fade,2,0,4.2,3.5,2
+office,The Future of AI,fade,3,0,25.8,1.5,3
+tower,The real chart,portal-in,1,1.8,4.0,4.0,21
+tower,The real chart,portal-in,2,0,5.0,4.0,34
+tower,The real chart,portal-in,3,0,7.0,4.0,55
+tower,The real chart,portal-in,4,0,9.0,6.0,89
+boat,Anchor,fold,1,2.2,4.0,2.5,233
+boat,Anchor,fold,2,0,6.0,3.5,610
+boat,Anchor,fold,3,0,6.0,5.0,"1,597"
+loop,The loop,wash,1,1.8,4.0,4.0,"2,584"
+loop,The loop,wash,2,0,4.0,5.0,"4,181"
+loop,The loop,wash,3,0,4.0,5.0,"10,946"
+loop,The loop,wash,4,0,10.0,7.0,"75,025"
+swarm,A country of them,portal-in,1,1.6,4.0,3.0,"121,393"
+swarm,A country of them,portal-in,2,0,6.0,4.0,"832,040"
+swarm,A country of them,portal-in,3,0,7.0,4.0,"2,178,309"
+swarm,A country of them,portal-in,4,0,8.0,8.0,"39,088,169"
+dominoes,Thirty steps,flaps,1,1.4,4.0,3.0,"433,494,437"
+dominoes,Thirty steps,flaps,2,0,14.0,4.0,"1,134,903,170"
+dominoes,Thirty steps,flaps,3,0,5.0,1.2,"7,778,742,049"
+calendar,2027,slam,1,0.9,3.5,2.5,"20,365,011,074"
+calendar,2027,slam,2,0,6.0,3.0,"365,435,296,162"
+calendar,2027,slam,3,0,6.0,4.0,"10,610,209,857,723"
+calendar,2027,slam,4,0,6.0,4.0,1.3 × 10^15
+lamp,How far you can see,portal-out,1,1.6,4.5,3.0,1.6 × 10^19
+lamp,How far you can see,portal-out,2,0,7.0,4.0,4.1 × 10^26
+lamp,How far you can see,portal-out,3,0,11.0,8.0,8.9 × 10^40
+selectall,Select all,daybreak,1,3.1,6.0,3.0,3.5 × 10^52
+selectall,Select all,daybreak,2,0,7.0,2.5,10^80
+selectall,Select all,daybreak,3,0,12.0,6.0,∞
+aim,Aim,line,1,1.2,5.0,3.0,∞
+aim,Aim,line,2,0,5.0,3.5,∞
+aim,Aim,line,3,0,14.0,3.5,∞
+aim,Aim,line,4,0,5.0,5.0,∞
+futures,Two aims,tear,1,1.2,5.0,6.0,∞
+futures,Two aims,tear,2,0,4.0,5.0,∞
+futures,Two aims,tear,3,0,5.0,8.0,∞
+pile,You are here,portal-in,1,0,12.0,3.0,∞
+pile,You are here,portal-in,2,0,7.0,5.0,1
+questions,Any questions?,portal-out,1,0,0.6,4.0,1
+questions,Any questions?,portal-out,2,0,4.0,2.5,1
+questions,Any questions?,portal-out,3,0,12.0,8.0,1

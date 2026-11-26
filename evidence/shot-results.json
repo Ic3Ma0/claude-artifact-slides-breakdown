@@ -1,0 +1,614 @@
+[
+  {
+    "id": "shot_001",
+    "start": 0.0,
+    "end": 1.0,
+    "duration": 1.0,
+    "transition_in": "start",
+    "boundary_score": 0.0,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0057,
+        "ai_video": 0.0057,
+        "avatar": 0.0057,
+        "cg_3d": 0.0057,
+        "code_render": 0.847,
+        "screen_capture": 0.0899,
+        "still_motion": 0.0057,
+        "static_hold": 0.0231,
+        "anim_2d": 0.0057,
+        "stop_motion": 0.0057,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.01",
+        "纹理呈渲染特征：平坦色块 85%、95% 像素仅用 3 种颜色、横竖直边 40%",
+        "平坦底色上有大量细小高频细节（小字号文字/界面），像截图或文档画面"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.135,
+        "vector_fill": 0.028,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.98,
+        "text_like": 0.883,
+        "static_composite": 0.947,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.343
+      }
+    }
+  },
+  {
+    "id": "shot_002",
+    "start": 1.0,
+    "end": 2.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.995,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.006,
+        "ai_video": 0.006,
+        "avatar": 0.006,
+        "cg_3d": 0.006,
+        "code_render": 0.4362,
+        "screen_capture": 0.049,
+        "still_motion": 0.006,
+        "static_hold": 0.4729,
+        "anim_2d": 0.006,
+        "stop_motion": 0.006,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.0,
+        "vector_fill": 0.018,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.48,
+        "text_like": 0.002,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.014
+      }
+    }
+  },
+  {
+    "id": "shot_003",
+    "start": 2.0,
+    "end": 3.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.966,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0062,
+        "ai_video": 0.0062,
+        "avatar": 0.0062,
+        "cg_3d": 0.0062,
+        "code_render": 0.0211,
+        "screen_capture": 0.0077,
+        "still_motion": 0.0062,
+        "static_hold": 0.9275,
+        "anim_2d": 0.0062,
+        "stop_motion": 0.0062,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.01",
+        "纹理呈照片/视频特征：噪声 σ=1.87、用色 134 种、平坦块 0%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.0,
+        "vector_fill": 0.0,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.016,
+        "text_like": 0.007,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.412
+      }
+    }
+  },
+  {
+    "id": "shot_004",
+    "start": 3.0,
+    "end": 4.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.98,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0062,
+        "ai_video": 0.0062,
+        "avatar": 0.0062,
+        "cg_3d": 0.0062,
+        "code_render": 0.0343,
+        "screen_capture": 0.009,
+        "still_motion": 0.0062,
+        "static_hold": 0.9131,
+        "anim_2d": 0.0062,
+        "stop_motion": 0.0062,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00",
+        "纹理呈照片/视频特征：噪声 σ=0.53、用色 372 种、平坦块 4%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.0,
+        "vector_fill": 0.008,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.03,
+        "text_like": 0.002,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.059
+      }
+    }
+  },
+  {
+    "id": "shot_005",
+    "start": 4.0,
+    "end": 5.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.967,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0061,
+        "ai_video": 0.0061,
+        "avatar": 0.0061,
+        "cg_3d": 0.0061,
+        "code_render": 0.2974,
+        "screen_capture": 0.0352,
+        "still_motion": 0.0061,
+        "static_hold": 0.6249,
+        "anim_2d": 0.0061,
+        "stop_motion": 0.0061,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00",
+        "纹理呈照片/视频特征：噪声 σ=0.44、用色 50 种、平坦块 7%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.0,
+        "vector_fill": 0.0,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.32,
+        "text_like": 0.002,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.04
+      }
+    }
+  },
+  {
+    "id": "shot_006",
+    "start": 5.0,
+    "end": 6.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.924,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.006,
+        "ai_video": 0.006,
+        "avatar": 0.006,
+        "cg_3d": 0.006,
+        "code_render": 0.3453,
+        "screen_capture": 0.04,
+        "still_motion": 0.006,
+        "static_hold": 0.5724,
+        "anim_2d": 0.006,
+        "stop_motion": 0.006,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.0,
+        "vector_fill": 0.0,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.375,
+        "text_like": 0.001,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.021
+      }
+    }
+  },
+  {
+    "id": "shot_007",
+    "start": 6.0,
+    "end": 7.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.802,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0061,
+        "ai_video": 0.0061,
+        "avatar": 0.0061,
+        "cg_3d": 0.0061,
+        "code_render": 0.2781,
+        "screen_capture": 0.0333,
+        "still_motion": 0.0061,
+        "static_hold": 0.6461,
+        "anim_2d": 0.0061,
+        "stop_motion": 0.0061,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00",
+        "纹理呈照片/视频特征：噪声 σ=2.57、用色 49 种、平坦块 1%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.004,
+        "vector_fill": 0.0,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.298,
+        "text_like": 0.008,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.415
+      }
+    }
+  },
+  {
+    "id": "shot_008",
+    "start": 7.0,
+    "end": 8.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.999,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0057,
+        "ai_video": 0.0057,
+        "avatar": 0.0057,
+        "cg_3d": 0.0057,
+        "code_render": 0.8402,
+        "screen_capture": 0.0892,
+        "still_motion": 0.0057,
+        "static_hold": 0.0305,
+        "anim_2d": 0.0057,
+        "stop_motion": 0.0057,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00",
+        "暗底上的亮部几乎全是细碎亮点/细线（去掉平滑背景后，亮部平滑过渡只占 12%，每百个亮像素 26 个亮峰）：粒子/点云/线框类图形，不是有明暗过渡的实拍、3D 表面或 AI 画面",
+        "纹理呈渲染特征：平坦色块 27%、95% 像素仅用 27 种颜色、横竖直边 10%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.971,
+        "fine_light": 0.0,
+        "vector_fill": 0.0,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.971,
+        "text_like": 0.021,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.037
+      }
+    }
+  },
+  {
+    "id": "shot_009",
+    "start": 8.0,
+    "end": 9.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.605,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0057,
+        "ai_video": 0.0057,
+        "avatar": 0.0057,
+        "cg_3d": 0.0057,
+        "code_render": 0.8492,
+        "screen_capture": 0.0901,
+        "still_motion": 0.0057,
+        "static_hold": 0.0206,
+        "anim_2d": 0.0057,
+        "stop_motion": 0.0057,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00",
+        "暗底上的亮部几乎全是细碎亮点/细线（去掉平滑背景后，亮部平滑过渡只占 10%，每百个亮像素 16 个亮峰）：粒子/点云/线框类图形，不是有明暗过渡的实拍、3D 表面或 AI 画面",
+        "纹理呈渲染特征：平坦色块 58%、95% 像素仅用 33 种颜色、横竖直边 20%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.983,
+        "fine_light": 0.0,
+        "vector_fill": 0.001,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.983,
+        "text_like": 0.02,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.007
+      }
+    }
+  },
+  {
+    "id": "shot_010",
+    "start": 9.0,
+    "end": 10.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.993,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0061,
+        "ai_video": 0.0061,
+        "avatar": 0.0061,
+        "cg_3d": 0.0061,
+        "code_render": 0.2818,
+        "screen_capture": 0.0336,
+        "still_motion": 0.0061,
+        "static_hold": 0.642,
+        "anim_2d": 0.0061,
+        "stop_motion": 0.0061,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00",
+        "纹理呈照片/视频特征：噪声 σ=0.60、用色 59 种、平坦块 1%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.0,
+        "vector_fill": 0.0,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.302,
+        "text_like": 0.002,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.077
+      }
+    }
+  },
+  {
+    "id": "shot_011",
+    "start": 10.0,
+    "end": 11.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.959,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0062,
+        "ai_video": 0.0062,
+        "avatar": 0.0062,
+        "cg_3d": 0.0062,
+        "code_render": 0.0378,
+        "screen_capture": 0.0094,
+        "still_motion": 0.0062,
+        "static_hold": 0.9092,
+        "anim_2d": 0.0062,
+        "stop_motion": 0.0062,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00",
+        "纹理呈照片/视频特征：噪声 σ=3.37、用色 125 种、平坦块 0%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.0,
+        "vector_fill": 0.0,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.034,
+        "text_like": 0.007,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.415
+      }
+    }
+  },
+  {
+    "id": "shot_012",
+    "start": 11.0,
+    "end": 12.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.994,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0058,
+        "ai_video": 0.0058,
+        "avatar": 0.0058,
+        "cg_3d": 0.0058,
+        "code_render": 0.6882,
+        "screen_capture": 0.0741,
+        "still_motion": 0.0058,
+        "static_hold": 0.197,
+        "anim_2d": 0.0058,
+        "stop_motion": 0.0058,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00",
+        "纹理呈渲染特征：平坦色块 21%、95% 像素仅用 22 种颜色、横竖直边 47%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.0,
+        "vector_fill": 0.0,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.781,
+        "text_like": 0.003,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.01
+      }
+    }
+  },
+  {
+    "id": "shot_013",
+    "start": 12.0,
+    "end": 13.0,
+    "duration": 1.0,
+    "transition_in": "cut",
+    "boundary_score": 0.985,
+    "deterministic": {
+      "probs": {
+        "live_action": 0.0057,
+        "ai_video": 0.0057,
+        "avatar": 0.0057,
+        "cg_3d": 0.0057,
+        "code_render": 0.8591,
+        "screen_capture": 0.0911,
+        "still_motion": 0.0057,
+        "static_hold": 0.0098,
+        "anim_2d": 0.0057,
+        "stop_motion": 0.0057,
+        "film_footage": 0.0
+      },
+      "evidence": [
+        "画面几乎完全静止：100% 的相邻帧逐像素重复，首尾帧差 0.00",
+        "纹理呈渲染特征：平坦色块 90%、95% 像素仅用 1 种颜色、横竖直边 48%"
+      ],
+      "facts": {
+        "temporal_family": "frozen",
+        "lowlight": false,
+        "big_face": false,
+        "face_area": 0.0,
+        "fine_dark": 0.0,
+        "fine_light": 0.036,
+        "vector_fill": 0.029,
+        "vector_kind": null,
+        "ui_text": 0.002,
+        "graphic_score": 0.995,
+        "text_like": 0.177,
+        "static_composite": 0.948,
+        "pulldown": null,
+        "native_cadence": false,
+        "film_hints": [],
+        "native_hfr": false,
+        "transcode_degraded": false,
+        "live_hint": 0.05
+      }
+    }
+  }
+]
