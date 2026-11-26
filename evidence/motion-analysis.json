@@ -100,5 +100,131 @@
         "temporal_family": "dynamic"
       }
     ]
+  },
+  {
+    "input": "evidence/loop-motion.mp4",
+    "sha256": "3b9c2a85cc37ff52dfc7b521a8b5a42e1ed8d48add08b3b3d1965f70de9f7a2e",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "10/1",
+          "nb_frames": "41"
+        }
+      ],
+      "format": {
+        "duration": "4.100000"
+      }
+    },
+    "sampling": "seek(\"loop\", 1, frame / 10)",
+    "vlm": false,
+    "shots": [
+      {
+        "start_s": 0.0,
+        "end_s": 4.1,
+        "detector": {
+          "live_action": 0.0919,
+          "ai_video": 0.3514,
+          "avatar": 0.0114,
+          "cg_3d": 0.3932,
+          "code_render": 0.1028,
+          "screen_capture": 0.0104,
+          "still_motion": 0.0097,
+          "static_hold": 0.0097,
+          "anim_2d": 0.0097,
+          "stop_motion": 0.0097,
+          "film_footage": 0.0
+        },
+        "temporal_family": "dynamic"
+      }
+    ]
+  },
+  {
+    "input": "evidence/dominoes-motion.mp4",
+    "sha256": "7de8995edf608a0b313fd768e5b06d04495fb00f8828e230dfc3331d763661f2",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "6/1",
+          "nb_frames": "85"
+        }
+      ],
+      "format": {
+        "duration": "14.166667"
+      }
+    },
+    "sampling": "seek(\"dominoes\", 1, frame / 6)",
+    "vlm": false,
+    "shots": [
+      {
+        "start_s": 0.0,
+        "end_s": 14.167,
+        "detector": {
+          "live_action": 0.2282,
+          "ai_video": 0.3653,
+          "avatar": 0.0121,
+          "cg_3d": 0.2821,
+          "code_render": 0.06,
+          "screen_capture": 0.0108,
+          "still_motion": 0.0104,
+          "static_hold": 0.0104,
+          "anim_2d": 0.0104,
+          "stop_motion": 0.0104,
+          "film_footage": 0.0
+        },
+        "temporal_family": "dynamic"
+      }
+    ]
+  },
+  {
+    "input": "evidence/questions-motion.mp4",
+    "sha256": "609327218d3195a32993fe96ee789041c96b361d49e5819f332d30b69a4435c2",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "10/1",
+          "nb_frames": "51"
+        }
+      ],
+      "format": {
+        "duration": "5.100000"
+      }
+    },
+    "sampling": "seek(\"questions\", 2, frame / 10)",
+    "vlm": false,
+    "shots": [
+      {
+        "start_s": 0.0,
+        "end_s": 5.1,
+        "detector": {
+          "live_action": 0.0066,
+          "ai_video": 0.0077,
+          "avatar": 0.0066,
+          "cg_3d": 0.1217,
+          "code_render": 0.7634,
+          "screen_capture": 0.0668,
+          "still_motion": 0.0066,
+          "static_hold": 0.0073,
+          "anim_2d": 0.0066,
+          "stop_motion": 0.0066,
+          "film_footage": 0.0
+        },
+        "temporal_family": "mostly_static"
+      }
+    ]
   }
 ]
