@@ -1,6 +1,14 @@
 # Claude Artifact 动画演示拆解 · The Last Boring Slide
 
-一个白底标题页，怎样变成一场可以走进图表、拖动两种未来、最后又回到白底标题页的演讲？这里收录了 @fluxxrider 的 Claude Artifact《The Last Boring Slide》的中文制作拆解，包含场景取样、检测结果和逐拍记录。[观看原作](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah)
+一个白底标题页，怎样变成一场可以走进图表、拖动两种未来、最后又回到白底标题页的演讲？这里收录了 @fluxxrider 的 Claude Artifact《The Last Boring Slide》的中文制作拆解，包含场景取样、检测结果和逐拍记录。
+
+## 体验成品
+
+[![动画预览：高塔上的图表折成纸船，落在海面上](evidence/presentation-preview.gif)](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah)
+
+**[打开完整交互演示 ↗](https://claude.ai/artifact/Cy2d8Vn63CnzCtonA1LSah)**　·　[下载离线 HTML](https://raw.githubusercontent.com/Ic3Ma0/claude-artifact-slides-breakdown/main/demo/the-last-boring-slide.zip)
+
+点击画面或按 **→** 推进，按 **A** 自动播放，按 **O** 挑选场景。离线体验请解压 ZIP，用浏览器打开里面的 `index.html`。
 
 ## 给 Agent 的阅读入口
 
